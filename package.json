@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/JamesSunTao/webpack_library/issues"
   },
-  "homepage": "https://github.com/JamesSunTao/webpack_library#readme"
+  "homepage": "https://github.com/JamesSunTao/webpack_library#readme",
+  "dependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0"
+  }
 }
